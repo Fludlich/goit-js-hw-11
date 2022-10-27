@@ -37,7 +37,7 @@ const searchImg = async () => {
 
 btnLoadMore.addEventListener('click', loadMoreImg);
 function loadMoreImg(event) {
-  event.target = count++;
+  count++;
 
   searchImg();
 }
