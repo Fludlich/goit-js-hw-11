@@ -55,7 +55,7 @@ form.addEventListener('submit', sendImgREq);
 async function sendImgREq(event) {
   event.preventDefault();
   file.innerHTML = '';
-  event.target = await searchImg(`${typeField}`);
+   await searchImg(`${typeField}`);
 
 }
 
